@@ -18,13 +18,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import {
-  Route,
-  Link,
-  NavLink,
-  BrowserRouter as Router,
-  Switch,
-} from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./index.css";
 import Home from "./components/Home";
 import About from "./components/About";
