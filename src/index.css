@@ -11,10 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.active {
+/* .active {
   color: red;
+} */
+
+.headername {
+  /* margin: 10px; */
+  /* margin-left: 400px; */
+  font-size: large;
+  color: black;
+  font-style: "bold";
 }
 
 .footer {
-  background-color: #87ceeb;
+  background-color: rgb(63, 147, 197);
+  margin-top: 20%;
+}
+
+.header {
+  background-color: rgb(171, 208, 231);
 }
