@@ -17,3 +17,32 @@
 //   );
 // }
 // export default Header;
+
+// import React from "react";
+// import { BrowserRouter } from "react-router-dom";
+// import { MDBNav, MDBNavLink, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+
+// export default () => (
+//   <BrowserRouter>
+//     <MDBContainer>
+//       <MDBRow>
+//         <MDBCol size="6">
+//           <MDBNav
+//             color="blue-gradient"
+//             className="font-weight-bold py-4 px-2 mb-4"
+//           >
+//             <MDBNavLink className="white-text" active to="/">
+//               Home
+//             </MDBNavLink>
+//             <MDBNavLink className="white-text" to="/about">
+//               About
+//             </MDBNavLink>
+//             <MDBNavLink className="white-text" to="/contact">
+//               Contact
+//             </MDBNavLink>
+//           </MDBNav>
+//         </MDBCol>
+//       </MDBRow>
+//     </MDBContainer>
+//   </BrowserRouter>
+// );
