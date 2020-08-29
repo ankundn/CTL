@@ -7,7 +7,7 @@ import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./index.css";
 import Home from "./components/Home";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Service from "./components/Service";
 import NotFound from "./components/NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -20,7 +20,7 @@ const routing = (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/service" component={Service} />
         <Route component={NotFound} />
       </Switch>
       <Footer />
