@@ -5,9 +5,11 @@ import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./index.css";
+// import withSplashScreen from "./components/withSplashScreen";
 import Home from "./components/Home";
 import About from "./components/About";
 import Service from "./components/Service";
+import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -16,11 +18,12 @@ const routing = (
   <Router>
     <div>
       <Header />
-      <hr />
+      {/* <hr /> */}
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/service" component={Service} />
+        <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

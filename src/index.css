@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.contactform {
+  margin-top: 5%;
+  /* margin-left: 70%; */
+}
