@@ -67,6 +67,9 @@ class Header extends Component {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/contact">Contact Us</MDBNavLink>
+            </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
