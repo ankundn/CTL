@@ -1,19 +1,21 @@
 import React from "react";
+import "../index.css";
 
 class About extends React.Component {
   render() {
     return (
       <div>
-        <p>
+        <h1> This is Us </h1>
+        <p className="aboutcontent">
           Corporate Technical Services (ltd), a subsidiary of Captiva Africa Ltd
           (<a href="https://captivaafrica.com">Captiva Africa</a>), was
           established in 2002 in Nairobi,Kenya
         </p>
-        <p>
+        <p className="aboutcontent">
           When we started off, our mision was to integrate innovate technology
           in the provision of security solutions for the corporate client.
         </p>
-        <p>
+        <p className="aboutcontent">
           Our initial services comprised the automation and systemintegration of
           traditional security monitoring and response options.
         </p>
@@ -22,18 +24,19 @@ class About extends React.Component {
           style={{
             whiteSpace: "pre-wrap",
           }}
+          className="aboutcontent"
         >
           {
             " These included the design, installation and maintenance of electronic surveillance products such as Close Circuit Television(CCTV) systems,\nand multi-redundancy counter-intrusion systems for equipment and  premises "
           }
         </p>
         <div>
-          <h4>Milestones</h4>
-          <p>
+          <h2>Milestones</h2>
+          <p className="aboutcontent">
             Some of our milestones in the evolution of the security sector in
             the region include the following:
           </p>
-          <ul>
+          <ul className="aboutcontent">
             <li>
               CTS was the first company in EA to offer work-flow solutions to
               the security decision chain for corporates
@@ -49,7 +52,7 @@ class About extends React.Component {
               to the police and ministry of interior
             </li>
           </ul>
-          <p>
+          <p className="aboutcontent">
             Our expansion into provision of advisory services was a natural
             progression from security hardware and system integration. This was
             on a large part in response to the evolving challenges faced by the
