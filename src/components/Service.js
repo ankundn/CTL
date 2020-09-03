@@ -1,16 +1,17 @@
 import React from "react";
+import "../index.css";
 
 class Service extends React.Component {
   render() {
     return (
       <div>
-        <h1>Client Service</h1>
-        <p>
+        <h1> Client Service </h1>
+        <p className="servicecontent">
           We have since phased out of the supply and system integration of
           security solutions to focus on investigations and advisory services.
         </p>
         <h3>Our advisory and investigation services include:</h3>
-        <ul>
+        <ul className="servicecontent">
           <li>Intellectual Property Violation Investigations</li>
           <li>Executive Due Diligence</li>
           <li>Pre-Investment Due Diligence</li>
@@ -25,7 +26,7 @@ class Service extends React.Component {
           </li>
         </ul>
         <h3>Executive Due Diligence</h3>
-        <p>
+        <p className="servicecontent">
           From our experience, the majority of corporate crime does not
           originate from the shop floor but from the boardroom. For example a
           number of companies in Kenya and the region have lately been caught up
@@ -40,7 +41,7 @@ class Service extends React.Component {
           companies or partners. Our executive due diligence investigations may
           be tailored to cover the following areas:
         </p>
-        <ul>
+        <ul className="servicecontent">
           <li>Confirmation of employment history</li>
           <li>
             Confirmation of academic and professional license qualifications
@@ -63,7 +64,9 @@ class Service extends React.Component {
           <li>Judgments</li>
           <li>Regulatory Violations</li>
         </ul>
-        <p>Any other information of interest to the client</p>
+        <p className="servicecontent">
+          Any other information of interest to the client
+        </p>
       </div>
     );
   }
