@@ -16,3 +16,23 @@ code {
   margin-top: 5%;
   /* margin-left: 70%; */
 }
+
+.aboutcontent {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.aboutheading {
+  font-size: 32px;
+  font-style: "bold";
+}
+
+.servicecontent {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.serviceheader {
+  font-size: 32px;
+  font-style: "bold";
+}
