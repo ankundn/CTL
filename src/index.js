@@ -18,7 +18,7 @@ const routing = (
   <Router>
     <div>
       <Header />
-      {/* <hr /> */}
+      
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
@@ -28,6 +28,7 @@ const routing = (
       </Switch>
       <Footer />
     </div>
+  
   </Router>
 );
 
