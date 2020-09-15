@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import Footer from "../components/Footer"
 
 class Service extends React.Component {
   render() {
@@ -67,6 +68,7 @@ class Service extends React.Component {
         <p className="servicecontent">
           Any other information of interest to the client
         </p>
+        <Footer />
       </div>
     );
   }

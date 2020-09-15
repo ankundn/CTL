@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import Footer from "../components/Footer";
 
 class About extends React.Component {
   render() {
@@ -60,6 +61,7 @@ class About extends React.Component {
             from internal factors, rather than external threats.
           </p>
         </div>
+        <Footer />
       </div>
     );
   }
