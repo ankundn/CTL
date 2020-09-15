@@ -37,12 +37,42 @@ code {
   font-style: "bold";
 }
 
-.heading {
-  text-align: center;
-  margin-top: 80px;
+.homeheading{
+  margin-top: 15%;
+  margin-bottom: 0;
+  margin-left: 10%;
+  font-size: 36px;
+  font-weight: bold;
+
+
+  @media (min-width: 480px) {
+    font-size: 48px;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 72px;
+  }
 }
 
-.btn-info {
-  margin-left: 350px;
-  margin-top: 100px;
+
+.homebutton {
+  
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:blue;
+  background: transparent;
+  border: 2px solid;
+  cursor: pointer;
+  transition: color 0.25s ease-in-out;
+  margin-left: 10%;
+  margin-top: 50px;
+
 }
+
+
+
+
+
