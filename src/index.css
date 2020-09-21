@@ -20,11 +20,13 @@ code {
 .aboutcontent {
   font-size: 18px;
   line-height: 27px;
+  text-align: center;
 }
 
-.aboutheading {
+.aboutheader {
   font-size: 32px;
   font-style: "bold";
+  text-align: center;
 }
 
 .servicecontent {
