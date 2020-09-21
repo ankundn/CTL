@@ -46,7 +46,7 @@ const HomepageHeading = ({ mobile }) => (
     />
     <Header
       as='h2'
-      content='Do whatever you want when you want to.'
+      content='Integrate innovate technology in the provision of security solutions for the corporate client.'
       inverted
       style={{
         fontSize: mobile ? '1.5em' : '1.7em',
@@ -54,8 +54,8 @@ const HomepageHeading = ({ mobile }) => (
         marginTop: mobile ? '0.5em' : '1.5em',
       }}
     />
-    <Button primary size='huge'>
-      Get Started
+    <Button href="/about"  primary size='huge' >
+      Get To Know Us
       <Icon name='right arrow' />
     </Button>
   </Container>

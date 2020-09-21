@@ -72,6 +72,21 @@ code {
 
 }
 
+.servicecardone {
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: auto;
+ margin-top: 40px;
+}
+
+.servicecardtwo {
+  width: 100%;
+  height: auto;
+  margin-left: 800px;
+  margin-top: -20px;
+}
+
 
 
 
