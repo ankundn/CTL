@@ -29,6 +29,20 @@ code {
   text-align: center;
 }
 
+.col-md-4 {
+  padding: 1rem;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  columns: #000000;;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: -25px;
+  }
+
+  .jumbo {
+    background-color: #fff;
+  }
+
 .servicecontent {
   font-size: 18px;
   line-height: 27px;
