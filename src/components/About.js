@@ -97,8 +97,30 @@ class About extends React.Component {
     </MDBJumbotron>
   
   
-  
-
+    <MDBContainer>
+  <MDBRow>
+    <MDBCol md="4">
+      <p className="aboutcontent">
+      CTS was the first company in EA to offer work-flow solutions to
+           the security decision chain for corporates
+      </p>
+    </MDBCol>
+    <MDBCol md="4">
+      <p className ="aboutcontent">
+      CTS pioneered the use of Radio Frequency tag technology for large
+               stores and supermarkets in Kenya to help prevent losses from theft
+            by employees and customers
+      </p>
+    </MDBCol>
+    <MDBCol md="4">
+      <p className="aboutcontent">
+      CTS was the first local private company in East Africa to be
+               contracted by government to offer long term technical assistance
+          to the police and ministry of interior
+      </p>
+    </MDBCol>
+  </MDBRow>
+</MDBContainer>
   
     </div>
     );

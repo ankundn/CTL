@@ -35,13 +35,16 @@ code {
   border: 2px solid #fff;
   columns: #000000;;
   text-align: center;
-  margin-left: 200px;
-  margin-top: -25px;
+  margin-top: -20px;
+
   }
 
   .jumbo {
     background-color: #fff;
   }
+
+
+  
 
 .servicecontent {
   font-size: 18px;
