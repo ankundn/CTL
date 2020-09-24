@@ -77,7 +77,7 @@
 // export default Service;
 
 import React, { Component } from 'react';
-import { MDBBtn, MDBCollapse, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
+import { MDBBtn } from 'mdbreact';
 
 class Service extends Component  {
   state = {
@@ -93,69 +93,104 @@ class Service extends Component  {
 
     return (
       
-      <MDBCol >
-        <div>
-        <MDBCard className="servicecardone" style={{ maxWidth: "25rem" }}>
-          <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
-            waves />
-          <MDBCardBody>
-            <MDBCardTitle>Coperate Technical Services</MDBCardTitle>
-            <MDBCardText>We have since phased out of the supply and system integration of
-          security solutions to focus on investigations and advisory services.</MDBCardText>
-        <MDBBtn   
-            color="primary"
-            onClick={this.toggleCollapse("basicCollapse")}
-            href="#">
-        Advisory and Investigation Services
-        </MDBBtn> 
-
-        <MDBCollapse id="basicCollapse" isOpen={this.state.collapseID}>
-        <ul className="servicecontent">
-           <li>Intellectual Property Violation Investigations</li>
-           <li>Executive Due Diligence</li>
-           <li>Pre-Investment Due Diligence</li>
-           <li>Corporate Fraud and Theft Investigation</li>
-           <li>Litigation Support</li>
-           <li>
-             Business risk mitigation ( due diligence on supply chain partners)
-           </li>
-           <li>
-             Board advisory ( screening of directors of boards) in mergers and
-             acquisitions
-           </li>
-      </ul>
-          
-        </MDBCollapse>
-          </MDBCardBody>    
-        </MDBCard>
-
-
-
-
-
-        
+      <div>
   
-   </div>
-   <div>
-   <MDBCard className="servicecardtwo" style={{ maxWidth: "25rem" }}>
-          <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
-            waves />
-          <MDBCardBody>
-            <MDBCardTitle>Executive Due Diligence</MDBCardTitle>
-            <MDBCardText> We conduct due
-             diligence, on behalf of clients, on executive level staff or
-             candidates, as well as on key persons at prospective investee
-         companies or partners.</MDBCardText>
-            <MDBBtn href="#"color="primary"
-          >Due Diligence Investigations</MDBBtn> 
-            
+    <h3 class="font-weight-bold text-center dark-grey-text pb-2">Our Services</h3>
+    <hr />
+       <p className="servicecontent">
+             Our expansion into provision of advisory services was a natural
+             progression from security hardware and system integration.
+        </p>
+
+
+
+        <div className="servicerow"> 
+<div class="row">
+
+<div class="col-md-6 col-xl-3 mb-4">
+  <div class="card text-center bg-success text-white">
+    <div class="card-body">
+      <p class="mt-4 pt-2"><i class="far fa-object-ungroup fa-4x"></i></p>
+      <h5 class="font-weight-normal my-4 py-2"><a class="text-white">Intellectual Property Violation Investigations</a></h5>
       
-          </MDBCardBody>    
-        </MDBCard>
-  
-   </div>
+      <p class="mb-4">Short explanation on IP
+      </p>
     
-      </MDBCol>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 col-xl-3 mb-4">
+  <div class="card text-center">
+    <div class="card-body">
+      <p class="mt-4 pt-2"><i class="fas fa-mobile-alt fa-4x grey-text"></i></p>
+      <h5 class="font-weight-normal my-4 py-2"><a class="dark-grey-text" href="/executiveduediligence">Executive Due Dilligence</a></h5>
+      
+      <p class="text-muted mb-4">Click for more information</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 col-xl-3 mb-4">
+  <div class="card text-center deep-purple lighten-1 text-white">
+    <div class="card-body">
+      <p class="mt-4 pt-2"><i class="fas fa-chart-line fa-4x"></i></p>
+      <h5 class="font-weight-normal my-4 py-2"><a class="text-white" >Pre-Investment Due Diligence</a></h5>
+      <p class="mb-4">Short Explanation on Pre-Investment Due Dilligence</p>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+</div>
+       <div class="row">
+
+<div class="col-md-6 col-xl-3 mb-4">
+  <div class="card text-center bg-success text-white">
+    <div class="card-body">
+      <p class="mt-4 pt-2"><i class="far fa-object-ungroup fa-4x"></i></p>
+      <h5 class="font-weight-normal my-4 py-2"><a class="text-white">Intellectual Property Violation Investigations</a></h5>
+      <p class="mb-4">Short explanation on IP</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 col-xl-3 mb-4">
+  <div class="card text-center">
+    <div class="card-body">
+      <p class="mt-4 pt-2"><i class="fas fa-mobile-alt fa-4x grey-text"></i></p>
+      <h5 class="font-weight-normal my-4 py-2"><a class="dark-grey-text" href="#">Executive Due Dilligence</a></h5>
+      <p class="text-muted mb-4">Short Explanation on EDD</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 col-xl-3 mb-4">
+  <div class="card text-center deep-purple lighten-1 text-white">
+    <div class="card-body">
+      <p class="mt-4 pt-2"><i class="fas fa-chart-line fa-4x"></i></p>
+      <h5 class="font-weight-normal my-4 py-2"><a class="text-white" >Pre-Investment Due Diligence</a></h5>
+      <p class="mb-4">Short Explanation on Pre-Investment Due Dilligence</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 col-xl-3">
+  <div class="card text-center">
+    <div class="card-body">
+      <p class="mt-4 pt-2"><i class="fas fa-bullhorn fa-4x grey-text"></i></p>
+      <h5 class="font-weight-normal my-4 py-2"><a class="dark-grey-text">Corporate Fraud and Theft Investigation</a></h5>
+      <p class="text-muted mb-4">Short Explanation on CPFI.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+      </div>
     )  
   }
   

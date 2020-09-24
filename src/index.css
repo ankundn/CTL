@@ -49,11 +49,16 @@ code {
 .servicecontent {
   font-size: 18px;
   line-height: 27px;
+  text-align: center;
 }
 
 .serviceheader {
   font-size: 32px;
   font-style: "bold";
+}
+
+.servicerow {
+  margin-left: 250px;
 }
 
 .homeheading{
