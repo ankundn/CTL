@@ -55,17 +55,10 @@ class Header extends Component {
               <MDBNavLink to="/service">What We Do</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <span className="mr-2">Clients</span>
-                </MDBDropdownToggle>
-                <MDBDropdownMenu>
-                  <MDBDropdownItem href="#!">StanChart</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Coca Cola</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">KCB</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Stanbic</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
+              <MDBNavLink to="/executiveduediligence">Executive Due Diligence</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink to="/client">Clients</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink to="/contact">Contact Us</MDBNavLink>

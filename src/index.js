@@ -13,6 +13,8 @@ import Service from "./components/Service";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
 import Header from "./components/Header";
+import Client from "./components/Client";
+import ExecutiveDueDilligence from "./components/ExecutiveDueDilligence";
 
 const routing = (
   <Router>
@@ -22,6 +24,8 @@ const routing = (
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/service" component={Service} />
+        <Route path="/executiveduediligence" component={ExecutiveDueDilligence} />
+        <Route path="/client" component={Client} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>
