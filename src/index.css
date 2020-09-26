@@ -67,7 +67,7 @@ code {
   /* margin-bottom: 0; */
   /* margin-left: 10%; */
   /* font-size: 36px; */
-  /* font-weight: bold; */
+  font-weight: bold;
   
   /* font-size: 32px; */
   /* font-style: "bold";
@@ -133,7 +133,84 @@ code {
   margin-top: -20px;
 }
 
+.cocacolalogo {
+  margin-left: 40px;
+}
+.cocacola {
+  height: 255px;
+  width: 255px;
+  border-radius: 50%;
+}
+.ibmlogo {
+  margin-left: 40px;
+}
 
+.ibm {
+  height: 255px;
+  width: 255px;
+  border-radius: 50%;
+}
 
+.nokialogo{
+  margin-left: 40px;
+}
 
+.nokia {
+  height: 255px;
+  width: 255px;
+  border-radius: 50%;
+}
 
+.microsoftlogo {
+  margin-left: 40px;
+}
+
+.microsoft {
+  height: 255px;
+  width: 255px;
+  border-radius: 50%;
+}
+
+.unileverlogo {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.unilever {
+  height: 255px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.wellsfargogrouplogo {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.wellsfargogroup {
+  height: 255px;
+  width: 255px;
+  border-radius: 60%;
+}
+
+.standardcharteredbanklogo {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.standardcharteredbank {
+  height: 255px;
+  width: 255px;
+  border-radius: 50%;
+}
+
+.parmalatlogo {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.parmalat {
+  height: 255px;
+  width: 255px;
+  border-radius: 50%;
+}

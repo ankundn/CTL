@@ -3,7 +3,9 @@ import "../index.css";
 // import Footer from "../components/Footer";
 import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
+
 class About extends React.Component {
+  
   render() {
     return (
       
