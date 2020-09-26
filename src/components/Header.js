@@ -20,11 +20,7 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBNavbarToggler,
-  MDBCollapse,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
+  MDBCollapse
 } from "mdbreact";
 
 class Header extends Component {
