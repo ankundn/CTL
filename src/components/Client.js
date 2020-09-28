@@ -209,7 +209,7 @@ class Client extends React.Component {
            understand client goals, apply intelligent solutions and
            treat clients with respect. 
          We ask that our clients view us as an extension of their teams rather than considering us a
-        vendor of services.           </p>
+        vendor of services.</p>
   </div>
         <MDBRow>
           <MDBCol lg="4" md="12" className="cocacolalogo">
