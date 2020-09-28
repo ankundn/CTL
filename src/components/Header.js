@@ -20,7 +20,7 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBNavbarToggler,
-  MDBCollapse
+  MDBCollapse 
 } from "mdbreact";
 
 class Header extends Component {
