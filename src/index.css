@@ -289,3 +289,8 @@ code {
   margin-left: 70px;
   margin-top: 150px;
 }
+
+.clientlogo {
+    display: flex;
+  flex-direction: column;
+}

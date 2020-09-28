@@ -43,7 +43,7 @@ class Client extends React.Component {
   </div>
   <div className="clientlogo">
 
-    <MDBRow className="text-center">
+    <MDBRow >
     <div className="cocacolalogo">
     <img 
                 className ="cocacola"
