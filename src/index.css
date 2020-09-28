@@ -134,14 +134,14 @@ code {
 }
 
 .cocacolalogo {
-  margin-left: 40px;
+  margin-left: 70px;
 }
 .cocacola {
   height: 255px;
   width: 255px;
   border-radius: 50%;
 }
-.ibmlogo {
+ .ibmlogo {
   margin-left: 40px;
 }
 
@@ -173,28 +173,19 @@ code {
 
 .unileverlogo {
   margin-top: 30px;
-  margin-left: 15px;
+  margin-left: 40px;
 }
 
 .unilever {
   height: 255px;
   width: 300px;
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
-.wellsfargogrouplogo {
-  margin-left: 30px;
-  margin-top: 20px;
-}
 
-.wellsfargogroup {
-  height: 255px;
-  width: 255px;
-  border-radius: 60%;
-}
 
 .standardcharteredbanklogo {
-  margin-left: 35px;
+  margin-left: 45px;
   margin-top: 20px;
 }
 
@@ -213,4 +204,88 @@ code {
   height: 255px;
   width: 255px;
   border-radius: 50%;
+} 
+.caterpillargrouplogo {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.caterpillargroup {
+  height: 255px;
+  width: 255px;
+  border-radius: 60%;
+}
+
+.kenyadatanetworkslogo {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.kenyadatanetworks {
+  height: 245px;
+  width: 245px;
+  border-radius: 50%;
+}
+
+.nationmediagrouplogo {
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+.nationmediagroup {
+  height: 255px;
+  width: 255px;
+  border-radius: 45%;
+}
+
+.enterpriserentacarlogo {
+  margin-top: -240px;
+  margin-left: 1010px;
+}
+
+.enterpriserentacar {
+  height: 240px;
+  width: 240px;
+  border-radius: 35%;
+}
+
+.sdalogo {
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+.sda {
+  height: 255px;
+  width: 255px;
+  border-radius: 50%;
+}
+
+.tatalogo {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.tata {
+  height: 255px;
+  width: 255px;
+  border-radius: 20%;
+}
+
+.pheonixaviationlogo {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.pheonixaviation {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+}
+
+.clientanimation {
+  color: rgba(64, 88, 224, 0.904);
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 70px;
+  margin-top: 150px;
 }

@@ -1,18 +1,24 @@
 import React from "react";
-import {  MDBRow } from "mdbreact";
+import {  MDBRow, MDBAnimation } from "mdbreact";
 import "../index.css";
 
 
-const cocacolalogo = require("../assets/cocacola.png");
-const nokialogo = require("../assets/nokia.jpeg");
+const cocacolalogo = require("../assets/cocacola.png")
+const nokialogo = require("../assets/nokia.jpeg")
 const microsoftlogo =require("../assets/microsoft.jpg")
-const ibmlogo = require("../assets/IBM.png");
-const unileverlogo = require("../assets/unilever.jpg");
-const wellsfargogrouplogo = require("../assets/wellsfargogroup.png");
-const standardcharteredbanklogo = require("../assets/standardchateredbank.png");
+const ibmlogo = require("../assets/IBM.png")
+const unileverlogo = require("../assets/unilever.jpg")
+const wellsfargogrouplogo = require("../assets/wellsfargogroup.png")
+const standardcharteredbanklogo = require("../assets/standardchateredbank.png")
 const parmalatlogo = require('../assets/parmalat.png')
-
-
+const caterpillargroup = require("../assets/caterpillargroup.jpg")
+const enterpriserentacar = require('../assets/enterpriserentacar.jpg')
+const KDN = require("../assets/KDN.jpg")
+const NMG = require('../assets/NMG.jpg')
+const UPF = require('../assets/UPF.jpg')
+const TATA = require('../assets/tata.png')
+const SDAI = require('../assets/SDA.jpg')
+const phoenixaviation =require('../assets/phoenixaviation.jpeg')
 
 
 
@@ -35,7 +41,8 @@ class Client extends React.Component {
           vendor of services.
           </p>
   </div>
-  <div>
+  <div className="clientlogo">
+
     <MDBRow className="text-center">
     <div className="cocacolalogo">
     <img 
@@ -45,7 +52,7 @@ class Client extends React.Component {
               />
             
     </div>
-    <div className="ibmlogo">
+     <div className="ibmlogo">
     <img 
                className ="ibm"
                 src= {ibmlogo}
@@ -53,6 +60,7 @@ class Client extends React.Component {
               />
               
     </div>
+    
     <div className="nokialogo">
     <img 
                className ="nokia"
@@ -61,30 +69,33 @@ class Client extends React.Component {
               />
               
     </div>
+  
     <div className="microsoftlogo">
     <img 
                className ="microsoft"
                 src= {microsoftlogo}
                 alt="Microsoft EA"
               />           
-    </div>  
+    </div>   
     </MDBRow>
+
     <MDBRow>
 
-    <div className="unileverlogo">
+     <div className="unileverlogo">
     <img 
                className ="unilever"
                 src= {unileverlogo}
                 alt="Unilever EA"
               />           
     </div>  
-    <div className="wellsfargogrouplogo">
+  
+    <div className="tatalogo">
     <img 
-               className ="wellsfargogroup"
-                src= {wellsfargogrouplogo}
-                alt="Wells Fargo Group"
+               className ="tata"
+                src= {TATA}
+                alt="TATA Group"
               />           
-    </div>  
+    </div> 
     <div className="standardcharteredbanklogo">
     <img 
                className ="standardcharteredbank"
@@ -92,14 +103,65 @@ class Client extends React.Component {
                 alt="Standard Chartered Bank"
               />           
     </div> 
+    
     <div className="parmalatlogo">
     <img 
                className ="parmalat"
                 src= {parmalatlogo}
                 alt="Parmalat SA"
               />           
-    </div> 
+    </div>  
 
+    </MDBRow>
+    <MDBRow>
+    <div className="caterpillargrouplogo">
+    <img 
+               className ="caterpillargroup"
+                src= {caterpillargroup}
+                alt="Caterpillar Group"
+              />           
+    </div> 
+    <div className="kenyadatanetworkslogo">
+    <img 
+               className ="kenyadatanetworks"
+                src= {KDN}
+                alt="Kenya Data Networs(Liquid Telkom)"
+              />           
+    </div> 
+    <div className="nationmediagrouplogo">
+    <img 
+               className ="nationmediagroup"
+                src= {NMG}
+                alt="Nation Media Group"
+              />           
+    </div> 
+    <div className="enterpriserentacarlogo">
+    <img 
+               className ="enterpriserentacar"
+                src= {enterpriserentacar}
+                alt="Enterprise Rent-A-Car"
+              />           
+    </div> 
+    </MDBRow>
+    <MDBRow>
+    <div className="sdalogo">
+    <img 
+               className ="sda"
+                src= {SDAI}
+                alt="Software Distributors Africa LTD"
+              />           
+    </div> 
+    <div className="pheonixaviationlogo">
+    <img 
+               className ="pheonixaviation"
+                src= {phoenixaviation}
+                alt="Pheonix Aviation"
+              />           
+    </div> 
+   
+    <MDBAnimation className="clientanimation"type="slideInLeft" duration="3s">
+          ...so many more clients, join us today. 
+                  </MDBAnimation>
     </MDBRow>
   </div>
 
