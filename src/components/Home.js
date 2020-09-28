@@ -5,7 +5,7 @@ import { MDBBtn } from "mdbreact";
 const Home = () => {
   return (
     
-    <div class="child">
+    <div className="child">
 
 
       
