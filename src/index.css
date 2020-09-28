@@ -133,21 +133,30 @@ code {
   margin-top: -20px;
 }
 
-.cocacolalogo {
+ /* .cocacolalogo {
   margin-left: 70px;
-}
-.cocacola {
-  height: 255px;
-  width: 255px;
+} */
+.cocacolalogo {
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
 }
+
+.img-fluid {
+  height: 200px;
+  width: 200px;
+  margin-left: 100px  ;
+  /* border-radius: 50%; */
+}
+
+/*
  .ibmlogo {
   margin-left: 40px;
 }
 
 .ibm {
-  height: 255px;
-  width: 255px;
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
 }
 
@@ -156,8 +165,8 @@ code {
 }
 
 .nokia {
-  height: 255px;
-  width: 255px;
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
 }
 
@@ -238,14 +247,14 @@ code {
   border-radius: 45%;
 }
 
-.enterpriserentacarlogo {
+.upflogo {
   margin-top: -240px;
-  margin-left: 1010px;
+  margin-left: 985px;
 }
 
-.enterpriserentacar {
-  height: 240px;
-  width: 240px;
+.upf {
+  height: 220px;
+  width: 220px;
   border-radius: 35%;
 }
 
@@ -293,4 +302,10 @@ code {
 .clientlogo {
     display: flex;
   flex-direction: column;
-}
+} */
+
+/* .mb-4 {
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+} */
