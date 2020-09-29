@@ -80,31 +80,31 @@ import React, { Component } from 'react';
 
 
 class Service extends Component  {
-  state = {
-    collapseID: ""
-  }
+  // state = {
+  //   collapseID: ""
+  // }
   
-  toggleCollapse = collapseID => () => {
-    this.setState(prevState => ({
-      collapseID: prevState.collapseID !== collapseID ? collapseID : ""
-    }));
-  }
+  // toggleCollapse = collapseID => () => {
+  //   this.setState(prevState => ({
+  //     collapseID: prevState.collapseID !== collapseID ? collapseID : ""
+  //   }));
+  // }
   render () {
 
     return (
       
       <div>
   
-    <h1 className="font-weight-bold text-center dark-grey-text pb-2">Our Services</h1>
-    {/* <hr /> */}
+    {/* <h1 className="font-weight-bold text-center dark-grey-text pb-2">Our Services</h1>
+    <hr />
        <p className="servicecontent">
              Our expansion into provision of advisory services was a natural
              progression from security hardware and system integration.
-        </p>
+        </p> */}
 
 
 
-        <div className="servicerow"> 
+        {/* <div className="servicerow"> 
 <div className="row">
 
 <div className="col-md-6 col-xl-3 mb-4">
@@ -187,9 +187,82 @@ class Service extends Component  {
   </div>
 </div>
 
+</div> */}
+
+<div className="container z-depth-1 my-5 py-5">
+
+  
+  <section>
+    
+    
+
+    {/* <h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">Services</h6> */}
+    <h2 className="h1-responsive font-weight-bold text-center my-5">
+      Our Services
+      </h2>
+    <hr className="w-header my-4" />
+    <p className="lead text-center text-muted pt-2 mb-5">Our expansion into provision of advisory services was a natural
+             progression from security hardware and system integration.</p>
+
+    <div className="row d-flex justify-content-center">
+
+      <div className="col-md-6 col-lg-5 col-xl-4">
+        <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Executive Due Diligence</h5>
+        <p className="text-muted mb-5 pb-md-3">Explanation on EDD add link to executiveduediligence</p>
+      </div>
+
+      <div className="col-md-6 col-lg-5 col-xl-4">
+        <h5 className="font-weight-normal border-top border-secondary pt-4 mb-4">Intellectual Property Violation Investigations</h5>
+        <p className="text-muted mb-5 pb-md-3">Explanation on IPVI</p>
+      </div>
+
+      <div className="w-100"></div>
+
+      <div className="col-md-6 col-lg-5 col-xl-4">
+        <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Pre-Investment Due Diligence</h5>
+        <p className="text-muted mb-5">Explanation on PIDD.</p>
+      </div>
+
+      <div className="col-md-6 col-lg-5 col-xl-4">
+        <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Corporate Fraud and Theft Investigation</h5>
+        <p className="text-muted mb-5">Explanation on CFTI</p>
+      </div>
+
+    </div>
+    
+
+
+    <div className="row d-flex justify-content-center">
+
+<div className="col-md-6 col-lg-5 col-xl-4">
+  <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Litigation Support</h5>
+  <p className="text-muted mb-5 pb-md-3">Explanation on LS</p>
 </div>
 
+<div className="col-md-6 col-lg-5 col-xl-4">
+  <h5 className="font-weight-normal border-top border-secondary pt-4 mb-4">Business Risk Mitigation</h5>
+  <p className="text-muted mb-5 pb-md-3">Explanation on BRM</p>
+</div>
 
+<div className="w-100"></div>
+
+<div className="col-md-6 col-lg-5 col-xl-4">
+  <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Board advisory in mergers and
+ acquisitions</h5>
+  <p className="text-muted mb-5">Explanation on BA.</p>
+</div>
+
+{/* <div class="col-md-6 col-lg-5 col-xl-4">
+  <h5 class="font-weight-normal border-top border-light pt-4 mb-4">Button for Edd</h5>
+  <p class="text-muted mb-5">Explanation on CFTI</p>
+</div> */}
+
+</div>
+
+  </section>
+  
+
+</div>
       </div>
     )  
   }
