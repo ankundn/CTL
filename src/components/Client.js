@@ -178,7 +178,7 @@
 // export default Client;
 
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBAnimation } from "mdbreact";
 
 const cocacolalogo = require("../assets/cocacola.png")
 const nokialogo = require("../assets/nokia.jpeg")
@@ -201,16 +201,27 @@ class Client extends React.Component {
     return (
       <MDBContainer className="mt-5">
           <div>
-   <h2 className="h1-responsive font-weight-bold my-5 text-center">
-             Our Amazing Clients
-           </h2>
-           <p className="grey-text w-responsive mx-auto mb-5">
-           We establish partnerships, provide responsive service,
+          <h2 className="h1-responsive font-weight-bold text-center my-5">
+      Our Amazing Clients
+      </h2>
+      <p className="text-center w-responsive mx-auto pb-5">
+      We establish partnerships, provide responsive service,
            understand client goals, apply intelligent solutions and
            treat clients with respect. 
          We ask that our clients view us as an extension of their teams rather than considering us a
-        vendor of services.</p>
+        vendor of services.
+      </p>
+
+           <MDBAnimation className="clientanimation"type="bounceIn" duration="3s">
+           <p className="text-center w-responsive mx-auto pb-5">
+     Meet some of our clients
+      </p> 
+              </MDBAnimation>
+      
   </div>
+
+
+  
         <MDBRow>
           <MDBCol lg="4" md="12" className="cocacolalogo">
             <img src={cocacolalogo} className="img-fluid z-depth-1" alt="Coca Cola Kenya" />
