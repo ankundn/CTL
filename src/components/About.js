@@ -56,9 +56,7 @@ class About extends React.Component {
 
 
 
-{/* <div className="w-100">
-  
-</div> */}
+
 
 <MDBContainer className="aboutctscards">
   <MDBCardGroup deck>
@@ -76,7 +74,7 @@ class About extends React.Component {
     </MDBCard>
 
 
-    <MDBCard>
+    <MDBCard >
       <MDBCardBody className="aboutcards">
         
         <MDBCardText className="text-center">
