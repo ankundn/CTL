@@ -29,6 +29,18 @@ code {
   font-style: "bold";
   text-align: center;
 }
+.card-body {
+  background-color: rgb(65, 178, 236)
+}
+.card-body-two {
+  margin-left: 370px;
+  background-color: rgb(65, 178, 236);
+}
+
+.card-body-three {
+  margin-left: 740px;
+  background-color: rgb(65, 178, 236);
+}
 
 .col-md-4 {
   padding: 1rem;
