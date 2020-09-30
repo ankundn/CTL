@@ -1,31 +1,4 @@
-// import React from "react";
-// import "../index.css";
-// import Footer from "../components/Footer"
 
-// className Service extends React.Component {
-//   render() {
-//     return (
-//       <div>
-//         <h1> Client Service </h1>
-//         <p className="servicecontent">
-//           We have since phased out of the supply and system integration of
-//           security solutions to focus on investigations and advisory services.
-//         </p>
-//         <h3>Our advisory and investigation services include:</h3>
-//         <ul className="servicecontent">
-//           <li>Intellectual Property Violation Investigations</li>
-//           <li>Executive Due Diligence</li>
-//           <li>Pre-Investment Due Diligence</li>
-//           <li>Corporate Fraud and Theft Investigation</li>
-//           <li>Litigation Support</li>
-//           <li>
-//             Business risk mitigation ( due diligence on supply chain partners)
-//           </li>
-//           <li>
-//             Board advisory ( screening of directors of boards) in mergers and
-//             acquisitions
-//           </li>
-//         </ul>
 //         <h3>Executive Due Diligence</h3>
 //         <p className="servicecontent">
 //           From our experience, the majority of corporate crime does not
@@ -42,39 +15,7 @@
 //           companies or partners. Our executive due diligence investigations may
 //           be tailored to cover the following areas:
 //         </p>
-//         <ul className="servicecontent">
-//           <li>Confirmation of employment history</li>
-//           <li>
-//             Confirmation of academic and professional license qualifications
-//           </li>
-//           <li>History of criminal and civil litigation</li>
-//           <li>Misrepresentations in their backgrounds</li>
-//           <li>Reputation Risks</li>
-//           <li>Politically exposed persons (PEPs)</li>
-//           <li> Client/supplier relationships</li>
-//           <li>Extensive reference interviews</li>
-//           <li>Interpol search</li>
-//           <li>Source of Wealth</li>
-//           <li>Conflict of Interest</li>
-//           <li>Pending Litigation</li>
-//           <li>Involvement in other businesses</li>
-//           <li>Credit Bureau Reference Checks</li>
-//           <li>Links to Organized Crime</li>
-//           <li>Verification of Credentials</li>
-//           <li>Debts and Solvency</li>
-//           <li>Judgments</li>
-//           <li>Regulatory Violations</li>
-//         </ul>
-//         <p className="servicecontent">
-//           Any other information of interest to the client
-//         </p>
-//         <Footer />
-//       </div>
-//     );
-//   }
-// }
 
-// export default Service;
 
 import React, { Component } from 'react';
 
@@ -103,24 +44,24 @@ class Service extends Component  {
     <div className="row d-flex justify-content-center">
 
       <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Executive Due Diligence</h5>
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Executive Due Diligence</h5>
         <p className="text-muted mb-5 pb-md-3">Explanation on EDD add link to executiveduediligence</p>
       </div>
 
       <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-secondary pt-4 mb-4">Intellectual Property Violation Investigations</h5>
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Intellectual Property Violation Investigations</h5>
         <p className="text-muted mb-5 pb-md-3">Explanation on IPVI</p>
       </div>
 
       <div className="w-100"></div>
 
       <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Pre-Investment Due Diligence</h5>
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Pre-Investment Due Diligence</h5>
         <p className="text-muted mb-5">Explanation on PIDD.</p>
       </div>
 
       <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Corporate Fraud and Theft Investigation</h5>
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Corporate Fraud and Theft Investigation</h5>
         <p className="text-muted mb-5">Explanation on CFTI</p>
       </div>
 
@@ -131,28 +72,22 @@ class Service extends Component  {
     <div className="row d-flex justify-content-center">
 
 <div className="col-md-6 col-lg-5 col-xl-4">
-  <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Litigation Support</h5>
+  <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Litigation Support</h5>
   <p className="text-muted mb-5 pb-md-3">Explanation on LS</p>
 </div>
 
 <div className="col-md-6 col-lg-5 col-xl-4">
-  <h5 className="font-weight-normal border-top border-secondary pt-4 mb-4">Business Risk Mitigation</h5>
+  <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Business Risk Mitigation</h5>
   <p className="text-muted mb-5 pb-md-3">Explanation on BRM</p>
 </div>
 
 <div className="w-100"></div>
 
 <div className="col-md-6 col-lg-5 col-xl-4">
-  <h5 className="font-weight-normal border-top border-light pt-4 mb-4">Board advisory in mergers and
+  <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Board advisory in mergers and
  acquisitions</h5>
   <p className="text-muted mb-5">Explanation on BA.</p>
 </div>
-
-{/* <div class="col-md-6 col-lg-5 col-xl-4">
-  <h5 class="font-weight-normal border-top border-light pt-4 mb-4">Button for Edd</h5>
-  <p class="text-muted mb-5">Explanation on CFTI</p>
-</div> */}
-
 </div>
 
   </section>
