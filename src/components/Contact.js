@@ -10,8 +10,8 @@ import {
 
 const Contact = () => {
   return (
-    <MDBContainer>
-      <h2 className="h1-responsive font-weight-bold text-center my-5">
+    <MDBContainer className="container z-depth-1 my-5 py-5" >
+      <h2 className="h1-responsive font-weight-bold text-center my-5 ">
         Contact us
       </h2>
       <p className="text-center w-responsive mx-auto pb-5">
