@@ -1,7 +1,6 @@
 import React from "react";
 import "../index.css";
-// import Footer from "../components/Footer";
-import {  MDBBtn, MDBContainer,MDBCard, MDBCardGroup, MDBCardTitle, MDBCardText, MDBCardBody, MDBCol } from "mdbreact";
+import {  MDBBtn, MDBContainer,MDBCard, MDBCardGroup, MDBCardText, MDBCardBody } from "mdbreact";
 
 
 class About extends React.Component {
@@ -11,20 +10,10 @@ class About extends React.Component {
       
     
 <div>
-    
-  
-  
-    
-
 
 <div className="container z-depth-1 my-5 py-5">
 
-  
   <section>
-    
-    
-
-    {/* <h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">Services</h6> */}
     <h2 className="h1-responsive font-weight-bold text-center my-5">
       Corporate Technical Services 
       </h2>
@@ -45,13 +34,7 @@ class About extends React.Component {
     <div className="text-center">
               <MDBBtn color="primary" href="/service">CTS SERVICES</MDBBtn>
             </div>
-
-            
-     
     </div>
-    
-  
-
     <div className="row d-flex justify-content-center">
 
 
