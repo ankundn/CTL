@@ -35,8 +35,8 @@ class Service extends Component  {
     
     
 
-    <h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4">Services</h6>
-    <h2 class="font-weight-bold text-center dark-grey-text pb-2">Our Services</h2>
+    <h6 className="font-weight-bold text-center grey-text text-uppercase small mb-4">Services</h6>
+    <h2 className="font-weight-bold text-center dark-grey-text pb-2">Our Services</h2>
     <hr className="w-header my-4" />
     <p className="lead text-center text-muted pt-2 mb-5">Our expansion into provision of advisory services was a natural
              progression from security hardware and system integration.</p>
