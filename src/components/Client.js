@@ -199,11 +199,15 @@ const candrgroup = require('../assets/CandRGroup.png')
 class Client extends React.Component {
   render() {
     return (
-      <MDBContainer className="mt-5">
-          <div>
-          <h2 className="h1-responsive font-weight-bold text-center my-5">
-      Our Amazing Clients
-      </h2>
+      <MDBContainer className="container z-depth-1 my-5 py-5">
+          <div>      
+    <h6 className="font-weight-bold text-center grey-text text-uppercase small mb-4">Clients</h6>
+    <MDBAnimation className="clientanimation"type="bounceIn" duration="3s">
+    <h2 className="font-weight-bold text-center dark-grey-text pb-2"> Meet Some of Our Amazing Clients</h2>
+              </MDBAnimation>
+   
+    <hr className="w-header my-4" />
+         
       <p className="text-center w-responsive mx-auto pb-5">
       We establish partnerships, provide responsive service,
            understand client goals, apply intelligent solutions and
@@ -213,9 +217,7 @@ class Client extends React.Component {
       </p>
 
            <MDBAnimation className="clientanimation"type="bounceIn" duration="3s">
-           <p className="text-center w-responsive mx-auto pb-5">
-     Meet some of our clients
-      </p> 
+           
               </MDBAnimation>
       
   </div>
