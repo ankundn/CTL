@@ -1,24 +1,4 @@
-
-//         <h3>Executive Due Diligence</h3>
-//         <p className="servicecontent">
-//           From our experience, the majority of corporate crime does not
-//           originate from the shop floor but from the boardroom. For example a
-//           number of companies in Kenya and the region have lately been caught up
-//           in adverse publicity on account of their senior staff being involved
-//           in a variety of highly publicised scandals. Candidates for executive
-//           positions often have long job histories spanning several companies and
-//           geographies, so much so that a standard background check is at times
-//           not enough. Executive due diligence is therefore a worthwhile
-//           investment of resources, compared to what is at stake. We conduct due
-//           diligence, on behalf of clients, on executive level staff or
-//           candidates, as well as on key persons at prospective investee
-//           companies or partners. Our executive due diligence investigations may
-//           be tailored to cover the following areas:
-//         </p>
-
-
 import React, { Component } from 'react';
-
 
 class Service extends Component  {
 
