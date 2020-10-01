@@ -1,17 +1,3 @@
-// import React from "react";
-// import { NavLink } from "react-router-dom";
-
-// function Header() {
-//   return (
-//     <nav className="header">
-//       <NavLink to="/">Home</NavLink>
-//       <NavLink to="/about">About</NavLink>
-//       <NavLink to="/contact">Contact</NavLink>
-//     </nav>
-//   );
-// }
-// export default Header;
-
 import React, { Component } from "react";
 import {
   MDBNavbar,
@@ -22,6 +8,10 @@ import {
   MDBNavbarToggler,
   MDBCollapse 
 } from "mdbreact";
+
+
+// const homelogo = require("../assets/homeimage.jpg")
+
 
 class Header extends Component {
   state = {
@@ -36,7 +26,9 @@ class Header extends Component {
     return (
       <MDBNavbar color="blue-gradient" dark expand="md">
         <MDBNavbarBrand>
-          <strong className="white-text">CTS LABEL</strong>
+        {/* <img src={homelogo} className="homelogo"
+              alt="CTS Label" /> */}
+          {/* <strong className="white-text">CTS LABEL</strong> */}
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
