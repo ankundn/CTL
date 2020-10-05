@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {MDBAnimation} from "mdbreact";
 
 class Service extends Component  {
 
@@ -16,7 +17,9 @@ class Service extends Component  {
     
 
     <h6 className="font-weight-bold text-center grey-text text-uppercase small mb-4">Services</h6>
+    <MDBAnimation className="clientanimation"type="bounceIn" duration="3s">
     <h2 className="font-weight-bold text-center dark-grey-text pb-2">Our Services</h2>
+              </MDBAnimation>
     <hr className="w-header my-4" />
     <p className="lead text-center text-muted pt-2 mb-5">Our expansion into provision of advisory services was a natural
              progression from security hardware and system integration.</p>

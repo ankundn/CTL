@@ -1,4 +1,8 @@
 import React from "react";
+import {
+  
+  MDBAnimation
+} from "mdbreact";
 
 
 const ExecutiveDueDilligence = () => {
@@ -7,7 +11,9 @@ const ExecutiveDueDilligence = () => {
      <div className="container z-depth-1 my-5 py-5">
 
   <h6 className="font-weight-bold text-center grey-text text-uppercase small mb-4">Services</h6>
-  <h2 className="font-weight-bold text-center dark-grey-text pb-2">Executive Due Dilligence Services</h2>
+  <MDBAnimation className="clientanimation"type="bounceIn" duration="3s">
+    <h2 className="font-weight-bold text-center dark-grey-text pb-2">Executive Due Dilligence Services</h2>
+              </MDBAnimation>
   <hr className="w-header my-4" />
   <p className="lead text-center text-muted pt-2 mb-5"> We conduct due
            diligence, on behalf of clients, on executive level staff or

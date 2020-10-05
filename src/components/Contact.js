@@ -6,14 +6,18 @@ import {
   MDBIcon,
   MDBBtn,
   MDBInput,
+  MDBAnimation
 } from "mdbreact";
 
 const Contact = () => {
   return (
     <MDBContainer className="container z-depth-1 my-5 py-5" >
-      <h2 className="h1-responsive font-weight-bold text-center my-5 ">
-        Contact us
-      </h2>
+     <h6 className="font-weight-bold text-center grey-text text-uppercase small mb-4">Contact</h6>
+    <MDBAnimation className="clientanimation"type="bounceIn" duration="3s">
+    <h2 className="font-weight-bold text-center dark-grey-text pb-2">Contact Us</h2>
+              </MDBAnimation>
+   
+    <hr className="w-header my-4" />
       <p className="text-center w-responsive mx-auto pb-5">
         Within CTS our clients have access to a team of highly committed and
         skilled professionals with a range of skills and experience in the
