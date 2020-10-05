@@ -8,7 +8,7 @@ import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./index.css";
 import 'semantic-ui-css/semantic.min.css' 
 import Home from "./components/Home";
-import About from "./components/About";
+// import About from "./components/About";
 import Service from "./components/Service";
 import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
@@ -22,7 +22,6 @@ const routing = (
     <Header />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
         <Route path="/service" component={Service} />
         <Route path="/executiveduediligence" component={ExecutiveDueDilligence} />
         <Route path="/client" component={Client} />
