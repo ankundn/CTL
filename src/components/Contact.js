@@ -6,7 +6,7 @@ import {
   MDBIcon,
   MDBBtn,
   MDBInput,
-  MDBAnimation
+  MDBAnimation 
 } from "mdbreact";
 
 const Contact = () => {

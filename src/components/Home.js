@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 import {  MDBBtn, MDBContainer,MDBCard, MDBCardGroup, MDBCardText, MDBCardBody } from "mdbreact";
-
+// import {homeimage} from "../assets/homeimage.jpg";
 
 class About extends React.Component {
   
@@ -14,6 +14,7 @@ class About extends React.Component {
 <div className="container z-depth-1 my-5 py-5">
 
   <section>
+    
     <h2 className="h1-responsive font-weight-bold text-center my-5">
       Corporate Technical Services 
       </h2>

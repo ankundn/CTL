@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import {MDBAnimation} from "mdbreact";
 
+
 class Service extends Component  {
 
   render () {
 
     return (
       
-      <div>
+      <div  >
   
 <div className="container z-depth-1 my-5 py-5">
 
   
-  <section>
+  <section >
     
     
 
