@@ -25,25 +25,22 @@ const ExecutiveDueDilligence = () => {
   <div className="row d-flex justify-content-center">
 
   <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Confirmation of employment history</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on Confirmation of employment history</p>
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Employment history</h5>
+        <p className="text-muted mb-5 pb-md-3">Verification and confirmation that the employement information on a job application is accurate.</p>
       </div>
 
       <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Confirmation of academic and professional license qualifications</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on Confirmation of academic and professional license qualifications</p>
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Academic and professional license qualifications</h5>
+        <p className="text-muted mb-5 pb-md-3">Verification and confirmation that academic and professional license qualifications are legitimate.</p>
       </div>
 
     <div className="w-100"></div>
 
     <div className="col-md-6 col-lg-5 col-xl-4">
         <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">History of criminal and civil litigation</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on History of criminal and civil litigation</p>
+        <p className="text-muted mb-5 pb-md-3">Background check on a person to see if they have any history of trial in criminal court or if they have had any civil suit brought agianst them.</p>
       </div>
-      <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Misrepresentations in their backgrounds</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on Misrepresentations in their backgrounds</p>
-      </div>
+      
 
   </div>
   
@@ -53,25 +50,22 @@ const ExecutiveDueDilligence = () => {
 
   <div className="col-md-6 col-lg-5 col-xl-4">
         <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Reputation Risks</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on Reputation Risks</p>
+        <p className="text-muted mb-5 pb-md-3">Establish threats or danger to the good name or standing of a business or entity</p>
       </div>
 
       <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Politically exposed persons (PEPs)</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on Politically exposed persons (PEPs)</p>
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Client/Supplier Relationships</h5>
+        <p className="text-muted mb-5 pb-md-3">Establish and explain the relationship between a client and the supplier</p>
       </div> 
 
 <div className="w-100"></div>
 
-<div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Client/Supplier relationships</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on Client/Supplier relationships</p>
-      </div> 
+ 
       
-      <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Extensive reference interviews</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on Extensive reference interviews</p>
-      </div> 
+<div className="col-md-6 col-lg-5 col-xl-4">
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Source of Wealth</h5>
+        <p className="text-muted mb-5 pb-md-3">Investigation on how one got their funds.</p>
+      </div>
 
 </div>
 
@@ -80,30 +74,28 @@ const ExecutiveDueDilligence = () => {
 
 <div className="row d-flex justify-content-center">
 
-<div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Interpol Search</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on Interpol Search</p>
-      </div> 
-      <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Source of Wealth</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on source of wealth</p>
-      </div> 
+
+    
 
 <div className="w-100"></div>
 
 <div className="col-md-6 col-lg-5 col-xl-4">
         <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Conflict of Interest</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on conflict of interesrt</p>
-      </div> 
+        <p className="text-muted mb-5 pb-md-3">Establish whether an entity or individual is unreliable because of a clash
+        between personal interests and professional duties or responsibilities.
+        </p>
+      </div>  
+
       <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Pending Litigation</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on Pending Litigation</p>
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Regulatory Violations</h5>
+        <p className="text-muted mb-5 pb-md-3">Violation of the Securities Act of 1933 or the Securities Exchange Act of 1934 by an Insured, in his or her capacity as such, related to financial statement reporting and disclosure to investors including violations of Generally Accepted Accounting Principles (“GAAP”).</p>
       </div> 
+     
 </div>
 
 
 
-<div className="row d-flex justify-content-center">
+{/* <div className="row d-flex justify-content-center">
 
 <div className="col-md-6 col-lg-5 col-xl-4">
         <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Links to Organized Crime</h5>
@@ -124,13 +116,15 @@ const ExecutiveDueDilligence = () => {
         <p className="text-muted mb-5 pb-md-3">Explanation on Judgements</p>
       </div> 
 
-</div>
+</div> */}
 
 <div className="row d-flex justify-content-center">
 
 <div className="col-md-6 col-lg-5 col-xl-4">
-        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">Regulatory Violations</h5>
-        <p className="text-muted mb-5 pb-md-3">Explanation on regulatory Violations</p>
+        <h5 className="font-weight-normal border-top border-primary pt-4 mb-4">And So Many More Executive Due Diligence Services</h5>
+        <p className="text-muted mb-5 pb-md-3">At Corporate Technical Services we have more executive due diligence services offered that include; 
+        Extensive Reference Interviews, Interpol Search, Links To Organized Crime, Verification of Credentials, Debts and Solvency, Judgements etc
+        </p>
       </div> 
 
 <div className="w-100"></div>
