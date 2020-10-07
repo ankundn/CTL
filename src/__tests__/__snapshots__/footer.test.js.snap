@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Footer renders correctly 1`] = `
+<footer
+  className="page-footer blue font-small pt-4 mt-4"
+  data-test="footer"
+>
+  <div
+    className="container-fluid text-center text-md-left"
+    data-test="container"
+  >
+    <div
+      className="row"
+      data-test="row"
+    >
+      <div
+        className="col-md-6"
+        data-test="col"
+      >
+        <h5
+          className="title"
+        >
+          Corporate Technical Services
+        </h5>
+        <p
+          style={
+            Object {
+              "whiteSpace": "pre-wrap",
+            }
+          }
+        >
+          8 Marissa Court Lavington
+ P.O Box 6389-200 
+ Nairobi, Kenya 
+ +254-722-329-357 
+ info@cts.co.ke 
+ info@captivaafrica.com
+        </p>
+        <p
+          style={
+            Object {
+              "whiteSpace": "pre-wrap",
+            }
+          }
+        >
+          1 Bukerere Road, Setta
+ Kampala, Uganda 
+ +256-794-094-966 
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer-copyright text-right py-3"
+  >
+    <div
+      className="container-fluid"
+      data-test="container"
+    >
+      Copyright:
+       Ankunda Nisha Stephanie
+    </div>
+  </div>
+</footer>
+`;
