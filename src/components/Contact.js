@@ -8,10 +8,14 @@ import {
   MDBInput,
   MDBAnimation 
 } from "mdbreact";
+import "./Header";
+import Header from "./Header";
 
 const Contact = () => {
   return (
-    <MDBContainer className="container z-depth-1 my-5 py-5" >
+    <div>
+      <Header />
+      <MDBContainer className="container z-depth-1 my-5 py-5" >
      <h6 className="font-weight-bold text-center grey-text text-uppercase small mb-4">Contact</h6>
     <MDBAnimation className="clientanimation"type="bounceIn" duration="3s">
     <h2 className="font-weight-bold text-center dark-grey-text pb-2">Contact Us</h2>
@@ -69,12 +73,12 @@ const Contact = () => {
             <li>
               <MDBIcon icon="map-marker-alt" size="2x" className="blue-text" />
               <p>8 Marissa Court Lavington, P.O Box 6389-200, Nairobi Kenya</p>
-              <p>1 Bukerere Road, Setta, Kampala Uganda</p>
+          
             </li>
             <li>
               <MDBIcon icon="phone" size="2x" className="blue-text mt-4" />
               <p>+254 722 329 357</p>
-              <p>+256 794 094 966</p>
+            
             </li>
             <li>
               <MDBIcon icon="envelope" size="2x" className="blue-text mt-4" />
@@ -85,6 +89,8 @@ const Contact = () => {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
+    </div>
+    
   );
 };
 

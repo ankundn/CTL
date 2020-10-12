@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {MDBAnimation} from "mdbreact";
-
+import Header from "./Header";
 
 class Service extends Component  {
 
@@ -9,7 +9,7 @@ class Service extends Component  {
     return (
       
       <div  >
-  
+  <Header />
 <div className="container z-depth-1 my-5 py-5">
 
   
