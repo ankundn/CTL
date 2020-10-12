@@ -14,6 +14,9 @@ class About extends React.Component {
 <div className="container z-depth-1 my-5 py-5">
 
   <section>
+
+  {/* <img src={homeimage} className="homeimage"
+              alt="" /> */}
     
     <h2 className="h1-responsive font-weight-bold text-center my-5">
       Corporate Technical Services 
