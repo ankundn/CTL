@@ -19,9 +19,9 @@ import ExecutiveDueDilligence from "./components/ExecutiveDueDilligence";
 const routing = (
   <div>
   <Router>
-  
+  <Header />
 
-    <Header />
+    
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/service" component={Service} />
