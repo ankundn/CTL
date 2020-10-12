@@ -2,7 +2,7 @@ import React from "react";
 import "../index.css";
 import {  MDBBtn, MDBContainer,MDBCard, MDBCardGroup, MDBCardText, MDBCardBody } from "mdbreact";
 // import {homeimage} from "../assets/homeimage.jpg";
-import Header from "./Header";
+
 
 class About extends React.Component {
   
@@ -11,7 +11,7 @@ class About extends React.Component {
       
     
 <div>
-<Header />
+
 <div className="container z-depth-1 my-5 py-5">
 
   <section>

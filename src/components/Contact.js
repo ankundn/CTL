@@ -9,12 +9,12 @@ import {
   MDBAnimation 
 } from "mdbreact";
 import "./Header";
-import Header from "./Header";
+
 
 const Contact = () => {
   return (
     <div>
-      <Header />
+     
       <MDBContainer className="container z-depth-1 my-5 py-5" >
      <h6 className="font-weight-bold text-center grey-text text-uppercase small mb-4">Contact</h6>
     <MDBAnimation className="clientanimation"type="bounceIn" duration="3s">

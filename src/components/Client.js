@@ -1,6 +1,5 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBAnimation } from "mdbreact";
-import Header from "./Header";
 
 const cocacolalogo = require("../assets/cocacola.png")
 const nokialogo = require("../assets/nokia.jpeg")
@@ -22,7 +21,7 @@ class Client extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        
          <MDBContainer className="container z-depth-1 my-5 py-5">
           <div>      
     <h6 className="font-weight-bold text-center grey-text text-uppercase small mb-4">Clients</h6>

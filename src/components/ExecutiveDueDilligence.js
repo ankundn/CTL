@@ -3,13 +3,13 @@ import {
   
   MDBAnimation
 } from "mdbreact";
-import Header from "./Header";
+
 
 
 const ExecutiveDueDilligence = () => {
   return (
-   <div>
-<Header />
+   
+
 <div className="container z-depth-1 my-5 py-5">
 
 <h6 className="font-weight-bold text-center grey-text text-uppercase small mb-4">Services</h6>
@@ -138,7 +138,7 @@ const ExecutiveDueDilligence = () => {
 
 </div>
 
-   </div>
+   
     
 
 

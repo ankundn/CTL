@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, BrowserRouter as Router, Switch, NavLink } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import Header from "./Header";
+
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
@@ -17,8 +19,9 @@ import ExecutiveDueDilligence from "./components/ExecutiveDueDilligence";
 const routing = (
   <div>
   <Router>
-    
-    
+  
+
+    <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/service" component={Service} />
