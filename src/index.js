@@ -27,8 +27,6 @@ import Client from "./components/Client";
 import ExecutiveDueDilligence from "./components/ExecutiveDueDilligence";
 
 
-
-
 class Header extends Component {
   state = {
     isOpen: false,
