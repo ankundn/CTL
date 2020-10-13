@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Header renders correctly 1`] = `
+<nav
+  className="navbar-dark blue-gradient navbar navbar-expand-md"
+  data-test="navbar"
+  role="navigation"
+>
+  <div
+    className="navbar-brand"
+    data-test="navbar-brand"
+  />
+  <button
+    className="navbar-toggler"
+    data-test="navbar-toggler"
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="navbar-toggler-icon"
+    />
+  </button>
+  <div
+    className="collapse navbar-collapse"
+    data-test="collapse"
+    id="navbarCollapse3"
+    style={Object {}}
+  />
+</nav>
+`;

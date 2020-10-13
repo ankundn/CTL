@@ -1,14 +1,13 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-// import Header from "./Header";
+// import Header from "./components/Header";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'semantic-ui-css/semantic.min.css'
-
 
 import {
   MDBNavbar,
@@ -30,9 +29,6 @@ import ExecutiveDueDilligence from "./components/ExecutiveDueDilligence";
 
 
 
-
-
-
 class Header extends Component {
   state = {
     isOpen: false,
@@ -44,7 +40,8 @@ class Header extends Component {
 
   render() {
     return (
-      <Router>
+      <div>
+        <Router >
       <MDBNavbar color="blue-gradient" dark expand="md">
         <MDBNavbarBrand>
         {/* <img src={homelogo} className="homelogo"
@@ -72,38 +69,21 @@ class Header extends Component {
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
-           <Switch>
+             <Switch>
          <Route exact path="/" component={Home} />
          <Route path="/service" component={Service} />
          <Route path="/executiveduediligence" component={ExecutiveDueDilligence} />
          <Route path="/client" component={Client} />
-         <Route path="/contact" component={Contact} />
+        <Route path="/contact" component={Contact} />
          <Route component={NotFound} />
-       </Switch>
+      </Switch>
       </Router>
+      </div>
     );
   }
 }
 
 export default Header;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // const routing = (
@@ -124,9 +104,9 @@ export default Header;
 //   </Router>
 //   </div>
   
-// );
 
-ReactDOM.render(<Header/>, document.getElementById("root"));
+
+ReactDOM.render(<Header />, document.getElementById("root"));
 
 
 
