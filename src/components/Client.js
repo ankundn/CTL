@@ -12,7 +12,7 @@ const caterpillargroup = require("../assets/caterpillargroup.jpg")
 const enterpriserentacar = require('../assets/enterpriserentacar.jpg')
 const KDN = require("../assets/KDN.jpg")
 const NMG = require('../assets/NMG.jpg')
-const UPF = require('../assets/UPF.jpg')
+const BNL = require('../assets/bestnetltd.png')
 const TATA = require('../assets/tata.png')
 const phoenixaviation =require('../assets/phoenixaviation.jpeg')
 const candrgroup = require('../assets/CandRGroup.png')
@@ -89,7 +89,7 @@ class Client extends React.Component {
             <img src={NMG} className="img-fluid z-depth-4" alt="" />
           </MDBCol>
           <MDBCol lg="4" md="6" className="mb-4">
-            <img src={UPF} className="img-fluid z-depth-5" alt="" />
+            <img src={BNL} className="img-fluid z-depth-5" alt="" />
           </MDBCol>
         </MDBRow>
         <MDBRow>

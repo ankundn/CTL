@@ -72,37 +72,9 @@ code {
 .servicerow {
   margin-left: 250px;
 }
-/* .homelogo {
-  height: 50px;
-  width: 200px;
-} */
 
-
-/* .homeimage {
-  
-    height: 150px;
-    width: 500px;
-  
-  
-} */
 .homeheading{
-  /* margin-top: 15%; */
-  /* margin-bottom: 0; */
-  /* margin-left: 10%; */
-  /* font-size: 36px; */
   font-weight: bold;
-  
-  /* font-size: 32px; */
-  /* font-style: "bold";
-  text-align: center;
-  margin-top: 100px; */
-  /* @media (min-width: 480px) {
-    font-size: 48px;
-  }
-
-  @media (min-width: 768px) {
-    font-size: 72px;
-  } */
 }
 
 
@@ -125,21 +97,6 @@ code {
 
 }
 
-
-
-/* .child {
-  height: 100vh;
-  background-color: skyblue;
-  
-} */
-
-/* .try{
-  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-  height: 100vh;
-}  */
-
-
-
 .servicecardone {
   width: 100%;
   height: auto;
@@ -159,182 +116,13 @@ code {
   border-top-width: 2px !important;
 }
 
- /* .cocacolalogo {
-  margin-left: 70px;
-} */
-.cocacolalogo {
-  height: 240px;
-  width: 240px;
-  border-radius: 50%;
-}
 
 .img-fluid {
   height: 200px;
   width: 200px;
   margin-left: 100px  ;
-  /* border-radius: 50%; */
 }
 
-/*
- .ibmlogo {
-  margin-left: 40px;
-}
-
-.ibm {
-  height: 240px;
-  width: 240px;
-  border-radius: 50%;
-}
-
-.nokialogo{
-  margin-left: 40px;
-}
-
-.nokia {
-  height: 240px;
-  width: 240px;
-  border-radius: 50%;
-}
-
-.microsoftlogo {
-  margin-left: 40px;
-}
-
-.microsoft {
-  height: 255px;
-  width: 255px;
-  border-radius: 50%;
-}
-
-.unileverlogo {
-  margin-top: 30px;
-  margin-left: 40px;
-}
-
-.unilever {
-  height: 255px;
-  width: 300px;
-  border-radius: 40%;
-}
-
-
-
-.standardcharteredbanklogo {
-  margin-left: 45px;
-  margin-top: 20px;
-}
-
-.standardcharteredbank {
-  height: 255px;
-  width: 255px;
-  border-radius: 50%;
-}
-
-.parmalatlogo {
-  margin-left: 35px;
-  margin-top: 20px;
-}
-
-.parmalat {
-  height: 255px;
-  width: 255px;
-  border-radius: 50%;
-} 
-.caterpillargrouplogo {
-  margin-top: 30px;
-  margin-left: 80px;
-}
-
-.caterpillargroup {
-  height: 255px;
-  width: 255px;
-  border-radius: 60%;
-}
-
-.kenyadatanetworkslogo {
-  margin-top: 30px;
-  margin-left: 60px;
-}
-
-.kenyadatanetworks {
-  height: 245px;
-  width: 245px;
-  border-radius: 50%;
-}
-
-.nationmediagrouplogo {
-  margin-top: 25px;
-  margin-left: 70px;
-}
-
-.nationmediagroup {
-  height: 255px;
-  width: 255px;
-  border-radius: 45%;
-}
-
-.upflogo {
-  margin-top: -240px;
-  margin-left: 985px;
-}
-
-.upf {
-  height: 220px;
-  width: 220px;
-  border-radius: 35%;
-}
-
-.sdalogo {
-  margin-top: 30px;
-  margin-left: 90px;
-}
-
-.sda {
-  height: 255px;
-  width: 255px;
-  border-radius: 50%;
-}
-
-.tatalogo {
-  margin-left: 30px;
-  margin-top: 20px;
-}
-
-.tata {
-  height: 255px;
-  width: 255px;
-  border-radius: 20%;
-}
-
-.pheonixaviationlogo {
-  margin-top: 30px;
-  margin-left: 40px;
-}
-
-.pheonixaviation {
-  height: 260px;
-  width: 260px;
-  border-radius: 50%;
-}
-
-.clientanimation {
-  color: rgba(64, 88, 224, 0.904);
-  font-size: xx-large;
-  font-weight: bolder;
-  margin-left: 70px;
-  margin-top: 150px;
-}
-
-.clientlogo {
-    display: flex;
-  flex-direction: column;
-} */
-
-/* .mb-4 {
-  height: 240px;
-  width: 240px;
-  border-radius: 50%;
-} */
 
 .clientanimation {
   /* color: cornflowerblue; */
