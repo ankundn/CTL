@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-// import Header from "./components/Header";
+
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -84,27 +84,6 @@ class Header extends Component {
 }
 
 export default Header;
-
-
-// const routing = (
-//   <div>
-//   <Router>
-//   <Header />
-
-    
-//       <Switch>
-//         <Route exact path="/" component={Home} />
-//         <Route path="/service" component={Service} />
-//         <Route path="/executiveduediligence" component={ExecutiveDueDilligence} />
-//         <Route path="/client" component={Client} />
-//         <Route path="/contact" component={Contact} />
-//         <Route component={NotFound} />
-//       </Switch>
-   
-//   </Router>
-//   </div>
-  
-
 
 ReactDOM.render(<Header />, document.getElementById("root"));
 
