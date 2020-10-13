@@ -7,7 +7,7 @@ test(" Client renders correctly", () => {
   expect(tree).toMatchSnapshot();
 });
 
-// it('Monday image displays correctly',() => {
-//   let MondayImage = renderer.create(<Monday/>).getInstance();
-//   expect(MondayImage.change).toMatchSnapshot
-// });
+it('Image displays correctly',() => {
+  let Logo = renderer.create(<Client/>).getInstance();
+  expect(Logo.change).toMatchSnapshot
+});
