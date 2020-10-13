@@ -195,7 +195,7 @@ exports[` Client renders correctly 1`] = `
         <img
           alt=""
           className="img-fluid z-depth-5"
-          src="UPF.jpg"
+          src="bestnetltd.png"
         />
       </div>
     </div>
