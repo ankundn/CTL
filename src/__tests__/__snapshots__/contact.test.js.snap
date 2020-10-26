@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Contact renders correctly 1`] = `
+<div>
+  <div
+    className="container container z-depth-1 my-5 py-5"
+    data-test="container"
+  >
+    <h6
+      className="font-weight-bold text-center grey-text text-uppercase small mb-4"
+    >
+      Contact
+    </h6>
+    <div
+      className="animated bounceIn clientanimation"
+      data-test="animation"
+      onAnimationEnd={[Function]}
+      onAnimationIteration={[Function]}
+      onAnimationStart={[Function]}
+      style={
+        Object {
+          "animationDelay": undefined,
+          "animationDuration": "3s",
+          "animationIterationCount": 1,
+          "animationName": "bounceIn",
+          "visibility": "visible",
+        }
+      }
+    >
+      <h2
+        className="font-weight-bold text-center dark-grey-text pb-2"
+      >
+        Contact Us
+      </h2>
+    </div>
+    <hr
+      className="w-header my-4"
+    />
+    <p
+      className="text-center w-responsive mx-auto pb-5"
+    >
+      Within CTS our clients have access to a team of highly committed and skilled professionals with a range of skills and experience in the security, investigations and executive management in both public and private sectors.
+    </p>
+    <div
+      className="row"
+      data-test="row"
+    >
+      <div
+        className="col-md-9 md-0 mb-5"
+        data-test="col"
+      >
+        <form>
+          <div
+            className="row"
+            data-test="row"
+          >
+            <div
+              className="col-md-6"
+              data-test="col"
+            >
+              <div
+                className="md-form mb-0"
+              >
+                <div
+                  className="md-form"
+                >
+                  
+                  <input
+                    aria-disabled={false}
+                    className="form-control"
+                    data-test="input"
+                    disabled={false}
+                    id="contact-name"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInput={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <label
+                    aria-labelledby=""
+                    className=""
+                    data-error=""
+                    data-success=""
+                    htmlFor="contact-name"
+                    id=""
+                    onClick={[Function]}
+                  >
+                    Your name
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6"
+              data-test="col"
+            >
+              <div
+                className="md-form mb-0"
+              >
+                <div
+                  className="md-form"
+                >
+                  
+                  <input
+                    aria-disabled={false}
+                    className="form-control"
+                    data-test="input"
+                    disabled={false}
+                    id="contact-email"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInput={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <label
+                    aria-labelledby=""
+                    className=""
+                    data-error=""
+                    data-success=""
+                    htmlFor="contact-email"
+                    id=""
+                    onClick={[Function]}
+                  >
+                    Your email
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="row"
+            data-test="row"
+          >
+            <div
+              className="col-md-12"
+              data-test="col"
+            >
+              <div
+                className="md-form mb-0"
+              >
+                <div
+                  className="md-form"
+                >
+                  
+                  <input
+                    aria-disabled={false}
+                    className="form-control"
+                    data-test="input"
+                    disabled={false}
+                    id="contact-subject"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInput={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <label
+                    aria-labelledby=""
+                    className=""
+                    data-error=""
+                    data-success=""
+                    htmlFor="contact-subject"
+                    id=""
+                    onClick={[Function]}
+                  >
+                    Subject
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="row"
+            data-test="row"
+          >
+            <div
+              className="col-md-12"
+              data-test="col"
+            >
+              <div
+                className="md-form mb-0"
+              >
+                <div
+                  className="md-form"
+                >
+                  
+                  <textarea
+                    aria-disabled={false}
+                    className="md-textarea form-control"
+                    data-test="input"
+                    disabled={false}
+                    id="contact-message"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onInput={[Function]}
+                    value=""
+                  />
+                  <label
+                    aria-labelledby=""
+                    className=""
+                    data-error=""
+                    data-success=""
+                    htmlFor="contact-message"
+                    id=""
+                    onClick={[Function]}
+                  >
+                    Your message
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div
+          className="text-center text-md-left"
+        >
+          <button
+            className="btn-primary btn Ripple-parent btn-md"
+            data-test="button"
+            onMouseUp={[Function]}
+            onTouchStart={[Function]}
+            type="button"
+          >
+            Send
+            <div
+              className="Ripple "
+              data-test="waves"
+              style={
+                Object {
+                  "height": "0px",
+                  "left": "0px",
+                  "top": "0px",
+                  "width": "0px",
+                }
+              }
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        className="col-md-3 text-center"
+        data-test="col"
+      >
+        <ul
+          className="list-unstyled mb-0"
+        >
+          <li>
+            <i
+              className="fa fa-map-marker-alt fa-2x blue-text"
+              data-test="fa"
+            />
+            <p>
+              8 Marissa Court Lavington, P.O Box 6389-200, Nairobi Kenya
+            </p>
+          </li>
+          <li>
+            <i
+              className="fa fa-phone fa-2x blue-text mt-4"
+              data-test="fa"
+            />
+            <p>
+              +254 722 329 357
+            </p>
+          </li>
+          <li>
+            <i
+              className="fa fa-envelope fa-2x blue-text mt-4"
+              data-test="fa"
+            />
+            <p>
+              info@cts.co.ke
+            </p>
+            <p>
+              info@captivaafrica.com
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
